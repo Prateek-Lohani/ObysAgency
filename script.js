@@ -1,11 +1,9 @@
-
-
 function loadingAnimation(){
   var tl = gsap.timeline();
   tl.from(".line h1", {
     y: 150,
-    stagger: 0.25,
-    duration: 0.6,
+    stagger: 0.5,
+    duration: 1,
     delay: 0.5,
   });
   tl.from("#line1-part1", {
@@ -28,7 +26,7 @@ function loadingAnimation(){
   })
   tl.to("#loader", {
     opacity: 0,
-    duration: 0.2,
+    duration: 0.1,
     delay: 3.2,
   });
   tl.from("#page1",{
@@ -44,4 +42,19 @@ function loadingAnimation(){
   )
 }
 
+function cursorAnimation(){
+  document.addEventListener("mousemove",function(details){
+    gsap.to('#crsr',{
+      left:details.x,
+      top:details.y
+    })
+  })
+  
+  Shery.makeMagnet("#nav-part2 h2");
+}
+
+
 loadingAnimation();
+cursorAnimation();
+
+

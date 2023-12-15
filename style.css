@@ -19,6 +19,18 @@
 html,body{
     height:100%;
     width:100%;
+    }
+
+#crsr{
+    height:2.3vw;
+    width:2.3vw;
+    border-radius: 50%;
+    z-index:9999;
+    position: fixed;
+    mix-blend-mode: difference;
+    border:1px solid #ffffffcd;
+    transform: translate(-50%,-50%);
+    
 }
 
 #loader{
@@ -43,6 +55,7 @@ html,body{
     font-size: 6vw;
     text-transform: uppercase;
     line-height: 8vw;
+    font-family: Plain;
     /* background-color: red; */
 }
 .line h2{
@@ -51,7 +64,7 @@ html,body{
     font-weight: 1100;
     opacity: 0;
     margin-top: -1.2vw;
-    animation-duration: 1.2s;
+    animation-duration: 1.5s;
     animation-iteration-count: infinite;
 }
 #line1-part1{
@@ -84,17 +97,55 @@ html,body{
     /* background-color: red; */
 }
 
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2.2vw 6vw;
+}
+
+#nav-part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3.2vw;
+}
+
+#nav-part2 h2{
+    font-size: 0.9vw;
+    font-weight: 100;
+    font-family: Plain;
+}
+
+#hero h1{
+    font-size: 7.8vw;
+    line-height: 7.8vw;
+    font-family: Plain;
+    font-weight: 400;
+}
+
+#hero:nth-child(2){
+    margin-top: 16vh;
+}
+
+#hero{
+    /* background-color: red; */
+    width:75%;
+    margin-left: 25%;
+    /*transform: translate(-50%,-50%); */
+}
+
 @keyframes anime {
     0%{
         font-family: Plain;
-        /* -webkit-text-stroke: 1px #fff; */
+        -webkit-text-stroke: 1px #fff;
         color: #fff;
         font-weight: 100;
         opacity: 1;
     }
     48%{
         font-family: Plain;
-        /* -webkit-text-stroke: 1px #fff; */
+        -webkit-text-stroke: 1px #fff;
         color: #fff;
         font-weight: 100;
         opacity: 0;
