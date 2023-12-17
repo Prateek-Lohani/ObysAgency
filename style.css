@@ -16,14 +16,12 @@
     color: #fff;
 }
 
-/* body:hover{
-    cursor:none;
-} */
 
 html,body{
     height:100%;
     width:100%;
     }
+
 
 #crsr{
     height:2.3vw;
@@ -44,6 +42,7 @@ html,body{
     z-index: 999;
     background-color: #030303;
     padding: 25vh 10vw;
+    overflow-y: hidden;
 }
 
 .line{
@@ -185,6 +184,7 @@ html,body{
 #page4{
     width: 100%;
     min-height: 100vh;
+    position: relative;
 }
 
 .page4-content{
@@ -208,7 +208,7 @@ html,body{
     margin-bottom: 3.2vw;
 }
 
-.page4-content p{
+.page4-content .para{
     font-size: 2.3vw;
     line-height: 2.4vw;
     width:50%;
@@ -233,6 +233,7 @@ html,body{
     width:20%;
     line-height: 1.1vw;
     margin-left: 4.8vw;
+    font-family: plain;
 }
 
 .img-container{
@@ -272,6 +273,37 @@ video{
 .vid-crsr i{
 font-size: 3vw;
 }
+
+
+.blue-div{
+    background-color: #3F7DF3;
+    padding:3.5vw 1vw;
+    width:46%;
+    position: relative;
+    margin-top:-36vh;
+    margin-left:19vw;
+    margin-bottom: 5.5vw;
+}
+
+.divitem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5vw 1.4vw;
+    border-bottom: 0.1vw solid #fff;
+}
+
+.divitem h2{
+    font-family: plain;
+    font-size: 1.5vw;
+    font-weight: 100;
+}
+
+.divitem p{
+    font-family: plain;
+    font-size: 0.9vw;
+}
+
 
 
 @keyframes anime {
