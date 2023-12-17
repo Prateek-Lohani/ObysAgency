@@ -169,6 +169,110 @@ html,body{
     /*transform: translate(-50%,-50%); */
 }
 
+#page2{
+    width:100%;
+    min-height:100vh;
+    background-color: #151515;
+    padding-top: 20vh;
+}
+/* 
+#page3{
+    width:100%;
+    min-height: 100vh;
+    position: relative;
+} */
+
+#page4{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.page4-content{
+    width:72%;
+    position: relative;
+    left:28%;
+}
+
+.page4-content h1{
+    font-size: 7vw;
+    font-family: plain;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 4.5vw;
+}
+
+.underline{
+    height:0.1vw;
+    width:95%;
+    background-color: white;
+    margin-bottom: 3.2vw;
+}
+
+.page4-content p{
+    font-size: 2.3vw;
+    line-height: 2.4vw;
+    width:50%;
+    font-family: plain;
+    margin-bottom: 3vw;
+    font-weight: 100;
+}
+
+.page4-content img{
+    width: 30vw;
+    height:40vw;
+    object-fit: cover;
+}
+
+.flex-content{
+    display: flex;
+}
+
+.flex-content p{
+    font-size: 1vw;
+    font-weight: 100;
+    width:20%;
+    line-height: 1.1vw;
+    margin-left: 4.8vw;
+}
+
+.img-container{
+    width:60vw;
+    height:70vh;
+    position: relative;
+    left:38.99%;
+}
+
+.img-container img{
+    width: 100%;
+    height:100%;
+    position: absolute;
+}
+
+video{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.vid-crsr{
+    width:8vw;
+    height:8vw;
+    position: absolute;
+    left:70%;
+    top:-12%;
+    z-index: 99;
+    border-radius: 50%;
+    background-color: #FFA63D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.vid-crsr i{
+font-size: 3vw;
+}
+
 
 @keyframes anime {
     0%{
