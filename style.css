@@ -42,7 +42,6 @@ html,body{
     z-index: 999;
     background-color: #030303;
     padding: 25vh 10vw;
-    overflow-y: hidden;
 }
 
 .line{
@@ -91,7 +90,7 @@ html,body{
 
 #main{
     position: relative;
-    background-color:#030303;
+    background-color: #151515;
 }
 
 #page1{
@@ -202,7 +201,7 @@ html,body{
 }
 
 .underline{
-    height:0.1vw;
+    height:0.01vw;
     width:95%;
     background-color: white;
     margin-bottom: 3.2vw;
@@ -295,16 +294,22 @@ font-size: 3vw;
 
 .divitem h2{
     font-family: plain;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
+    width:45%;
     font-weight: 100;
 }
 
 .divitem p{
     font-family: plain;
-    font-size: 0.9vw;
+    font-size: 1vw;
+    width:40%;
 }
 
-
+#page5{
+    width:100%;
+    min-height: 100vh;
+    padding:5vw 0;
+}
 
 @keyframes anime {
     0%{
