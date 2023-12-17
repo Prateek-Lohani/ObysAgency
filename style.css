@@ -16,6 +16,10 @@
     color: #fff;
 }
 
+/* body:hover{
+    cursor:none;
+} */
+
 html,body{
     height:100%;
     width:100%;
@@ -25,7 +29,7 @@ html,body{
     height:2.3vw;
     width:2.3vw;
     border-radius: 50%;
-    z-index:9999;
+    z-index:999;
     position: fixed;
     mix-blend-mode: difference;
     border:1px solid #ffffffcd;
@@ -49,6 +53,7 @@ html,body{
     align-items: center;
     justify-content: flex-start;
     gap:2vw;
+ 
 }
 
 .line h1{
@@ -118,22 +123,52 @@ html,body{
 }
 
 #hero h1{
-    font-size: 7.8vw;
-    line-height: 7.8vw;
+    font-size: 7.6vw;
+    line-height: 7.6vw;
+    text-transform: uppercase;
     font-family: Plain;
-    font-weight: 400;
+    font-weight: 100;
+   
+}
+
+#hero h2{
+    font-size: 7.6vw;
+    line-height: 7.6vw;
+    text-transform: uppercase;
+    font-family: Plain;
+    font-weight: 100;
+}
+
+.hero3 h2:hover{
+    -webkit-text-stroke: 0.1vw white;
+    color: transparent;
+    border-bottom: 0.5vw solid rgba(255, 255, 255, 0) ;
+}
+
+
+.hero3 h2{
+    border-bottom: 0.5vw solid white ;
+    margin-right: 1vw;
+    padding-bottom:0.5vw;
 }
 
 #hero:nth-child(2){
-    margin-top: 16vh;
+    margin-top: 15vh;
 }
 
 #hero{
     /* background-color: red; */
     width:75%;
+    height: fit-content;
     margin-left: 25%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 9999;
     /*transform: translate(-50%,-50%); */
 }
+
 
 @keyframes anime {
     0%{

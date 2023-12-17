@@ -27,7 +27,7 @@ function loadingAnimation(){
   tl.to("#loader", {
     opacity: 0,
     duration: 0.1,
-    delay: 3.2,
+    // delay: 3.2,
   });
   tl.from("#page1",{
     delay:0.2,
@@ -40,10 +40,22 @@ function loadingAnimation(){
   display:"none"
   }
   )
+
+  tl.from("#nav",{
+    opacity:0,
+    duration:.2
+  })
+
+  tl.from('.hero1 h1,.hero2 h1,.hero3 h2,.hero4 h1',{
+    y:100,
+    stagger:.1
+  })
+
 }
 
 function cursorAnimation(){
   document.addEventListener("mousemove",function(details){
+    
     gsap.to('#crsr',{
       left:details.x,
       top:details.y
