@@ -183,15 +183,42 @@ html,body{
 
 #page2{
     width:100%;
-    min-height:100vh;
+    min-height:80vh;
     background-color: #151515;
     /* padding-top: 20vh; */
 }
+
+
+
 
 #page3{
     width:100%;
     min-height: 100vh;
     position: relative;
+    padding:2vw 2vw;
+    /* background-color: teal; */
+}
+
+#page3 .img-container{
+    left:0;
+    width:100%;
+    height:80vh;
+    /* background-color: red; */
+    padding:2vw;
+   
+}
+
+.imgdiv{
+    width:20vw;
+    position: relative;
+    height:28vw;
+    background-color: green;
+}
+
+.imgdiv img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
 }
 
 #page4{
@@ -210,6 +237,15 @@ html,body{
     width:72%;
     position: relative;
     left:28%;
+}
+
+.page3-content h1::before{
+    content:"02";
+    position: absolute;
+    left:-11vw;
+    font-size: 4vw;
+    font-family: silk;
+
 }
 
 .page3-content h1{
@@ -335,6 +371,10 @@ font-size: 3vw;
     font-size: 1.7vw;
     width:45%;
     font-weight: 100;
+}
+
+._canvas_container{
+    z-index:999999 !important;
 }
 
 .divitem p{
