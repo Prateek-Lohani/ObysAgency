@@ -206,6 +206,21 @@ html,body{
     left:28%;
 }
 
+.page3-content{
+    width:72%;
+    position: relative;
+    left:28%;
+}
+
+.page3-content h1{
+    font-size: 7vw;
+    font-family: plain;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 4.5vw;
+}
+
+
 .page4-content h1{
     font-size: 7vw;
     font-family: plain;
@@ -259,10 +274,10 @@ html,body{
 }
 
 .img-container{
-    width:60vw;
-    height:70vh;
+    width:65vw;
+    height:72vh;
     position: relative;
-    left:38.99%;
+    left:35%;
 }
 
 .img-container img{
