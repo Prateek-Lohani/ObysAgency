@@ -54,10 +54,12 @@ html,body{
  
 }
 
+
 .line h1{
     font-size: 6vw;
     text-transform: uppercase;
     line-height: 8vw;
+    font-weight: 500;
     font-family: Plain;
     /* background-color: red; */
 }
@@ -98,6 +100,8 @@ html,body{
     width:100%;
     background-color: #151515;
     /* background-color: red; */
+    position: relative;
+    margin-bottom: 8vw;
 }
 
 #nav{
@@ -127,6 +131,16 @@ html,body{
     font-family: Plain;
     font-weight: 100;
    
+}
+
+#hero:nth-child(2):before{
+    content:"01";
+    left:17.4vw;
+    position: absolute;
+    z-index: 9999999;
+    font-size: 4vw;
+    font-family: silk;
+    transition-delay: .4s;
 }
 
 #hero h2{
@@ -162,7 +176,7 @@ html,body{
     overflow: hidden;
     display: flex;
     align-items: center;
-    position: relative;
+    /* position: relative; */
     z-index: 9999;
     /*transform: translate(-50%,-50%); */
 }
@@ -171,14 +185,14 @@ html,body{
     width:100%;
     min-height:100vh;
     background-color: #151515;
-    padding-top: 20vh;
+    /* padding-top: 20vh; */
 }
-/* 
+
 #page3{
     width:100%;
     min-height: 100vh;
     position: relative;
-} */
+}
 
 #page4{
     width: 100%;
@@ -198,6 +212,15 @@ html,body{
     font-weight: 100;
     text-transform: uppercase;
     margin-bottom: 4.5vw;
+}
+
+.page4-content h1::before{
+    content:"03";
+    position: absolute;
+    left:-11vw;
+    font-size: 4vw;
+    font-family: silk;
+
 }
 
 .underline{
@@ -309,6 +332,104 @@ font-size: 3vw;
     width:100%;
     min-height: 100vh;
     padding:5vw 0;
+    position: relative;
+}
+
+.elem{
+white-space: nowrap;
+overflow-x: hidden;
+margin-bottom: -1vw;
+}
+.elem h1{
+    display: inline-block;
+    font-family: Silk;
+    font-size: 5vw;
+    -webkit-text-stroke: 0.1vw #fff;
+    color: transparent;
+    font-weight: 100;
+    text-transform: uppercase;
+    /* background-color: red; */
+    margin-right: 16px;
+    animation-name:textAnimation ;
+    animation-duration:12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+.elem2 h1{
+    animation-name:textAnimation;
+    animation-duration:14s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+   
+}
+
+#footer{
+    width:100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.footer-section{
+    position: relative;
+    width:75%;
+    margin-left: 25%;
+    /* background-color: red; */
+}
+
+.ri-arrow-right-line{
+    -webkit-text-stroke: .02vw #fff;
+    color: transparent;
+}
+
+.email{
+    text-decoration: underline;
+}
+
+#footer h1{
+    /* text-align: center; */
+    font-size: 7.9vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 4.5vw;
+    font-family: Plain;
+}
+
+#footer h1::before{
+    content:"04";
+    position: absolute;
+    left:-10vw;
+    font-size: 4vw;
+    font-family: silk;
+}
+
+.container-box{
+    display: flex;
+    gap:15vw;
+    padding:3vw 0;
+}
+
+.box h6{
+    font-size: 1.1vw;
+    font-weight: 400;
+    font-family: plain;
+    margin-bottom: 2.2vw;
+}
+
+.cc{
+    font-size: 1.1vw;
+    position: relative;
+    font-family: plain;
+    font-weight: 400;
+    padding:0 0 4vw 0;
+}
+
+.box h5{
+    font-size: 1.5vw;
+    font-family: plain;
+    font-weight: 100;
 }
 
 @keyframes anime {
@@ -341,3 +462,16 @@ font-size: 3vw;
         opacity: 0;
     }
 }
+
+
+@keyframes textAnimation {
+from{
+transform: translateX(0);
+}   
+to{
+transform: translateX(calc(-100% - 20px));
+} 
+}
+
+
+    
