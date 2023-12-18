@@ -41,7 +41,7 @@ html,body{
     position: fixed;
     z-index: 999;
     background-color: #030303;
-    padding: 25vh 10vw;
+    padding: 20vh 10vw;
 }
 
 .line{
