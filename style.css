@@ -765,5 +765,16 @@ transform: translateX(calc(-100% - 20px));
     .brand__svg{
         margin-left: 5vh;
     }
+    #page1{
+        height:50vh;
+    }
+    .vid-crsr{
+        top:-5%;
+        width:10vh;
+        height: 10vh;
+    }
+    .vid-crsr i{
+        font-size: 5vh;
+    }
 }
     
