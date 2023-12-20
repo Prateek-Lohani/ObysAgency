@@ -132,6 +132,10 @@ html,body{
     font-family: Plain;
 }
 
+.git i{
+    font-size: 1.5vw;
+}
+
 #hero h1{
     font-size: 7.6vw;
     line-height: 7.6vw;
@@ -364,6 +368,16 @@ html,body{
 }
 .circle-in i{
     color: red;
+}
+
+.brand__svg{
+    margin-left: 1.5vw;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .down{
