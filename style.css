@@ -550,7 +550,7 @@ font-size: 3vw;
     width:12vw;
     height:24vw;
     position: relative;
-    top:-35%;
+    top:15%;
     left:50%;
     transform: translate(-50%,-50%);
     opacity: 0;
