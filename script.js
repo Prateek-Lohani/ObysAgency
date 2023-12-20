@@ -195,12 +195,7 @@ function flagAnimation() {
 var fadein=document.querySelector('.fadein');
 
 fadein.addEventListener('mouseenter',function() {
-  $('.fadein').textillate({selector: '.fadein', in: { effect: 'fadeIn' },out: {
-    effect: 'fadeOut',
-    sync: false,
-    shuffle: false,
-    reverse: false,
-  } });
+  $('.fadein').textillate({ in: { effect: 'fadeIn' } });
   console.log('hey')
 })
 
