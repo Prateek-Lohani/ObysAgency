@@ -39,8 +39,13 @@ html,body{
     border: 1px solid #fff;
     color:transparent;
     background-color: rgb(255, 255, 255);
-    scale: 2.5;
+    scale: 2;
+    transform: translate(-50%,-50%);
     mix-blend-mode: difference;
+}
+
+body:hover{
+    cursor:none;
 }
 
 #loader{
@@ -435,7 +440,11 @@ scale:1;
     margin-left: 4vw;
 }
 
-
+.box h5:hover{
+    scale:1.2;
+    color:grey;
+    transition: all ease .2s;
+}
 
 .imgdiv img{
     width: 100%;
@@ -541,7 +550,7 @@ font-size: 3vw;
     width:12vw;
     height:24vw;
     position: relative;
-    top:-18%;
+    top:-35%;
     left:50%;
     transform: translate(-50%,-50%);
     opacity: 0;

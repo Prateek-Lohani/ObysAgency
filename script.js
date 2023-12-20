@@ -95,10 +95,11 @@ function cursorAnimation(){
   //   })
   // })
 
+
   Shery.mouseFollower({
-    skew: true,
-    ease: "cubic-bezier(0.23, 1, 0.320, 1)",
-    duration: 1,
+    // skew: true,
+    //  ease: "all .2s",
+    // duration: .80,
   });
   
   Shery.makeMagnet("#nav-part2 h2");
