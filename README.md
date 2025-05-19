@@ -14,8 +14,6 @@ This repository contains a clone of the award-winning Obys Agency website, metic
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Deployment](#deployment)
-- [Screenshots](#screenshots)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ---
