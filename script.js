@@ -189,9 +189,6 @@ fadein.addEventListener('mouseenter',function() {
 })
 
 
-
-
-
 loadingAnimation();
 cursorAnimation();
 locomotiveAnimation();
