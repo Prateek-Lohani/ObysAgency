@@ -1,8 +1,6 @@
 function locomotiveAnimation(){
   gsap.registerPlugin(ScrollTrigger);
 
-// Using Locomotive Scroll from Locomotive https://github.com/locomotivemtl/locomotive-scroll
-
 const locoScroll = new LocomotiveScroll({
   el: document.querySelector("#main"),
   smooth: true
@@ -182,16 +180,6 @@ function flagAnimation() {
 
 }
 
-// function textAnimation(){
-//   gsap.to('.footer-section h1,.footer-section span',{
-//     duration:1,
-//     // delay:10,
-//     fontFamily:"Plain",
-//     onStart:function(){
-//       $('.footer-section h1').textillate({ in: { effect: 'fadeIn' } });
-//     }
-//   })
-// }
 
 var fadein=document.querySelector('.fadein');
 
@@ -199,9 +187,6 @@ fadein.addEventListener('mouseenter',function() {
   $('.fadein').textillate({ in: { effect: 'fadeIn' } });
   console.log('hey')
 })
-
-
-
 
 
 loadingAnimation();
