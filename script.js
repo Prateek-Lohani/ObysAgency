@@ -180,16 +180,6 @@ function flagAnimation() {
 
 }
 
-// function textAnimation(){
-//   gsap.to('.footer-section h1,.footer-section span',{
-//     duration:1,
-//     // delay:10,
-//     fontFamily:"Plain",
-//     onStart:function(){
-//       $('.footer-section h1').textillate({ in: { effect: 'fadeIn' } });
-//     }
-//   })
-// }
 
 var fadein=document.querySelector('.fadein');
 
